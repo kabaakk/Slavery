@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4412559861968467600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3176948600237041139}
+  m_Layer: 0
+  m_Name: Enemy5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3176948600237041139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4412559861968467600}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.44716, y: 0.34027, z: 15.18267}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7355693699744296041}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7034082825916320642
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3176948600237041139}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7273548866268191379, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 48e008b2b345f704b85f48a3ded6bda4, type: 2}
+    - target: {fileID: 919132149155446097, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_Name
+      value: Monster01_AllAnim
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 14aebc06a1abdb54ea7b8effce4322d5, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6038436519098703922}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 500508524279951810}
+  m_SourcePrefab: {fileID: 100100000, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+--- !u!95 &3527585859206100499 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+  m_PrefabInstance: {fileID: 7034082825916320642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7355693699744296041 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+  m_PrefabInstance: {fileID: 7034082825916320642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7881155166842795731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0392ad5188ec61545b5b7f77789a7dfb, type: 3}
+  m_PrefabInstance: {fileID: 7034082825916320642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6038436519098703922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7881155166842795731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2f0686e4d7bf54d9933e10c890b1aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  animatorOverride: {fileID: 3527585859206100499}
+  maxHealth: 40
+  hitTriggerName: Hit
+  deathTriggerName: Death
+  useDeathBool: 1
+  deathBoolName: Dead
+  hitReactionCooldown: 0.2
+  suppressHitReactionWhileAttacking: 1
+  attackStateName: Attack
+  logHpToConsole: 1
+--- !u!114 &500508524279951810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7881155166842795731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aad0a6e8b4f72f41bbf0bac21048f79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
+  player: {fileID: 0}
+  playerTag: Player
+  animatorOverride: {fileID: 3527585859206100499}
+  moveSpeed: 3.2
+  rotationSpeed: 10
+  advanceStopDistance: 0
+  ccStandoffPadding: 0.06
+  approachDecelerationRange: 0.32
+  gravity: 10
+  locomotionTransform: {fileID: 0}
+  ignorePhysicsBetweenEnemyAndPlayerLayers: 0
+  characterControllerSkinWidthOverride: 0
+  driveMoveSpeedByIntent: 1
+  moveSpeedParamDampTime: 0.1
+  minChaseMoveSpeedParam: 1
+  orbitWalkBlend: 0.5
+  orbitVelocityCutoff: 0.18
+  orbitRingPadding: 2.5
+  attackRange: 1.7
+  attackCommitDistance: 1.45
+  attackDamage: 6
+  attackCooldown: 1.1
+  attackPoint: {fileID: 0}
+  attackRadius: 1.1
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  hitMoment: 0.5
+  hitMomentTolerance: 0.14
+  fallbackHitPadding: 0.5
+  allowDamageDuringAnimatorTransition: 1
+  paramMoveSpeed: MoveSpeed
+  paramAttack: Attack
+  attackStateName: Attack
+  attackAnimatorLayerIndex: 0
+  hitReactStateName: Get_Hit
+  aggroDelaySeconds: 0.4
+  disableAnimatorRootMotion: 1
+  animatorAlwaysAnimate: 1
